@@ -11,14 +11,17 @@ import 'create_post_sheet.dart';
 
 /// Root shell hosting the primary tabs behind a custom bottom bar.
 class AppShell extends StatefulWidget {
-  const AppShell({super.key});
+  const AppShell({super.key, this.initialTab = 0});
+
+  /// Tab shown on first build, allowing deep links such as `/#/chats`.
+  final int initialTab;
 
   @override
   State<AppShell> createState() => _AppShellState();
 }
 
 class _AppShellState extends State<AppShell> {
-  int _index = 0;
+  late int _index = widget.initialTab.clamp(0, 3);
 
   final List<Widget> _screens = const [
     FeedScreen(),

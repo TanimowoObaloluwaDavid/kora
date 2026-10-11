@@ -30,14 +30,22 @@ no backend, and no setup** — just `flutter run`.
 ## 📸 Screens
 
 <p align="center">
-  <img src="assets/branding/screen-feed.png" width="250" alt="Feed" />
-  &nbsp;&nbsp;
-  <img src="assets/branding/screen-chat.png" width="250" alt="Chat" />
-  &nbsp;&nbsp;
-  <img src="assets/branding/screen-profile.png" width="250" alt="Profile" />
+  <img src="assets/branding/screen-feed.png" width="168" alt="Feed" />
+  &nbsp;
+  <img src="assets/branding/screen-chats.png" width="168" alt="Chats" />
+  &nbsp;
+  <img src="assets/branding/screen-chat.png" width="168" alt="Conversation" />
+  &nbsp;
+  <img src="assets/branding/screen-explore.png" width="168" alt="Explore" />
+  &nbsp;
+  <img src="assets/branding/screen-profile.png" width="168" alt="Profile" />
 </p>
 
-<p align="center"><i>Feed &nbsp;·&nbsp; Chat &nbsp;·&nbsp; Profile</i></p>
+<p align="center"><i>Feed &nbsp;·&nbsp; Chats &nbsp;·&nbsp; Conversation &nbsp;·&nbsp; Explore &nbsp;·&nbsp; Profile</i></p>
+
+<p align="center">
+  <img src="assets/branding/showcase.png" width="100%" alt="Kora app showcase" />
+</p>
 
 ## 🚀 Features
 
